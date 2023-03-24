@@ -7,7 +7,6 @@ type Props = {
 };
 
 function BlogList({ posts }: Props) {
-  console.log(posts.length, 'here is posts');
   return (
     <div>
       <hr className='border-amber-400 mb-10' />
