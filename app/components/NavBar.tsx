@@ -14,20 +14,20 @@ function NavBar() {
     <nav className='text-2xl font-ovo'>
       <div className='py-5 px-8  flex justify-between'>
         <div>
-          <p className='hover:text-gray-500 transition duration-300'>
+          <p className='hover:text-gray-500 transition duration-300 hover:scale-105'>
             <Link href='/'>Dylan Rotich</Link>
           </p>
         </div>
 
         <div className='hidden md:block'>
           <ul className='flex space-x-4'>
-            <li className='hover:text-gray-500 transition duration-300'>
+            <li className='hover:text-gray-500 hover:scale-105 transition duration-300'>
               <Link href={'/works'}>Works</Link>
             </li>
-            <li className='hover:text-gray-500 transition duration-300'>
+            <li className='hover:text-gray-500 hover:scale-105 transition duration-300'>
               <Link href={'/blog'}>Blog</Link>
             </li>
-            <li className='hover:text-gray-500 transition duration-300'>
+            <li className='hover:text-gray-500 hover:scale-105 transition duration-300'>
               <Link href={'/shop'}>Shop</Link>
             </li>
           </ul>
