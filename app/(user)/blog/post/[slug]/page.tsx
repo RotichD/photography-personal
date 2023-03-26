@@ -1,9 +1,9 @@
 import { groq } from 'next-sanity';
-import { client } from '../../../../lib/sanity.client';
+import { client } from '../../../../../lib/sanity.client';
 import Image from 'next/image';
-import urlFor from '../../../../lib/urlFor';
+import urlFor from '../../../../../lib/urlFor';
 import { PortableText } from '@portabletext/react';
-import { RichTextComponent } from '../../../components/RichTextComponents';
+import { RichTextComponent } from '../../../../components/RichTextComponents';
 
 type Props = {
   params: {

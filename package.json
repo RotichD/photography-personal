@@ -6,6 +6,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@next/font": "^13.2.4",
     "@portabletext/react": "^2.0.2",
     "@sanity/vision": "^3.0.0",
     "next": "latest",
