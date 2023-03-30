@@ -1,12 +1,12 @@
-import Image, { StaticImageData } from "next/image";
-import images from "../../../lib/works.images";
+import Image from "next/image";
+import galleryImages from "../../../lib/works.images";
 import MasonryGallery from "../../components/MasonryGallery";
 
 function Works() {
   return (
     <>
-    <MasonryGallery images={images} title='Color' subtitle="Assorted Street Work"/>
-    <MasonryGallery images={images} title='Color' subtitle="Assorted Street Work"/>
+    <MasonryGallery images={galleryImages} title='Street in Color' subtitle="A selection of Street Photography in color. Shot on GRIIIx"/>
+    <MasonryGallery images={galleryImages} title='Color' subtitle="Assorted Street Work"/>
     </>
   );
 }
