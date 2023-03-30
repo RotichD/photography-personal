@@ -9,9 +9,9 @@ interface Gallery {
 function MasonryGallery({images, title, subtitle }:Gallery) {
   return (
     <div className=" w-full pt-24 px-8  ">
-        <div className="flex flex-col md:flex-row md:justify-between">
+        <div className="flex flex-col md:flex-row md:justify-between md:items-end pb-8">
             <p className="font-ovo text-3xl">{title}</p>
-            <p className="text-gray-400">{subtitle}</p>
+            <p className="text-gray-400 max-w-xs">{subtitle}</p>
         </div>
       <div className="columns-1 sm:columns-2 md:columns-3 xl:columns-4 space-y-4">
         {images.map((image: StaticImageData, index: number) => {

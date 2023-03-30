@@ -82,10 +82,11 @@ function NavBar() {
           </button>
 
           <button className='focus:text-gray-500 transition duration-300'>
-            <Link href={'/shop'}>Shop</Link>
+            <Link href={'/presets'}>Presets</Link>
           </button>
         </div>
       )}
+      <div className=' h-px border-b xl:mx-8'></div>
     </nav>
   );
 }

@@ -4,8 +4,9 @@ import Carousel from "../components/Carousel";
 export function Hero() {
   return (
     <div className="mt-5 flex flex-col sm:flex-row sm:justify-between">
+      <h1 className='font-ovo text-5xl mb-8 mt-5'>Works</h1>
       <div>
-        <h1 className="font-ovo text-4xl sm:text-5xl md:text-7xl">
+        <h1 className="font-ovo text-5xl md:text-7xl">
           Photographer.
         </h1>
         <div className="flex items-center space-x-4">
