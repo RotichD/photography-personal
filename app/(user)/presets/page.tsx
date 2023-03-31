@@ -8,7 +8,7 @@ getStripe();
 function Shop() {
   
   return (
-    <div className='w-full px-8'>
+    <div className='w-full px-4 lg:px-8'>
       <h1 className='font-ovo text-5xl mb-8 mt-5'>Presets</h1>
       <div className='space-y-4 mb-5 flex flex-col items-center p-8 border text-justify  shadow xl:text-lg text-gray-800'>
         <p className='max-w-lg '>

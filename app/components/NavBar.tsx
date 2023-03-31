@@ -12,7 +12,7 @@ function NavBar() {
 
   return (
     <nav className='text-2xl font-ovo'>
-      <div className='py-5 px-8  flex justify-between'>
+      <div className='py-5 px-4 lg:px-8 flex justify-between'>
         <div>
           <p className='hover:text-gray-500 transition duration-300 hover:scale-105'>
             <Link href='/'>Dylan Rotich</Link>
@@ -20,7 +20,7 @@ function NavBar() {
         </div>
 
         <div className='hidden md:block'>
-          <ul className='flex space-x-4'>
+          <ul className='flex space-x-8'>
             <li className='hover:text-gray-500 hover:scale-105 transition duration-300'>
               <Link href={'/works'}>Works</Link>
             </li>
@@ -28,7 +28,7 @@ function NavBar() {
               <Link href={'/blog'}>Blog</Link>
             </li>
             <li className='hover:text-gray-500 hover:scale-105 transition duration-300'>
-              <Link href={'/shop'}>Shop</Link>
+              <Link href={'/presets'}>Presets</Link>
             </li>
           </ul>
         </div>
@@ -71,6 +71,7 @@ function NavBar() {
         </button>
       </div>
 
+            {/* Mobile Menu ↓ */}
       {isOpen && (
         <div className='absolute z-10 bg-white flex flex-col items-center space-y-4 py-4 border-y mb-5 w-full md:hidden'>
           <button onClick={toggleMenu} className=' focus:text-gray-500 transition duration-300'>
