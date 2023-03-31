@@ -62,3 +62,16 @@ interface MainImage {
   _type: 'string';
   current: string;
 }
+
+type galleryImage = {
+  staticImage: StaticImageData;
+  landscape: boolean;
+};
+
+type galleryArr = galleryImage[];
+
+interface Gallery {
+  images: galleryArr
+  title?: string;
+  subtitle?: string;
+}

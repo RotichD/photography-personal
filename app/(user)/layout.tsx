@@ -1,6 +1,21 @@
 import '../../styles/globals.css';
+import { Ovo, Quattrocento_Sans } from '@next/font/google';
+import NavBar from '../components/NavBar';
 import Header from '../components/Header';
 import Banner from '../components/Banner';
+import Footer from '../components/Footer';
+
+const ovo = Ovo({
+  weight: ['400'],
+  subsets: ['latin'],
+  variable: '--font-ovo',
+});
+
+const quattro = Quattrocento_Sans({
+  weight: ['400'],
+  subsets: ['latin'],
+  variable: '--font-quattro',
+});
 
 export const metadata = {
   title: 'Next.js',
@@ -14,10 +29,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang='en'>
-      <body className='max-w-7xl mx-auto'>
-        <Header />
-        <Banner />
-        {children}
+      <body className={`${ovo.variable} ${quattro.variable} font-quattro min-h-screen relative`}>
+        {/* <Header />
+        <Banner /> */}
+        <div className='max-w-7xl mx-auto'>
+          <NavBar />
+          {children}
+        </div>
+        <Footer />
       </body>
     </html>
   );

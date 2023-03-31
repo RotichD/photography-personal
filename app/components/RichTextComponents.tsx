@@ -20,28 +20,28 @@ export const RichTextComponent = {
   },
   list: {
     bullet: ({ children }: any) => (
-      <ul className=' ml-10 py-5 list-disc space-y-5'>{children}</ul>
+      <ul className='font-quattro ml-10 py-5 list-disc space-y-5'>{children}</ul>
     ),
     number: ({ children }: any) => (
-      <ol className='mt-lg list-decimal'>{children}</ol>
+      <ol className='font-quattro mt-lg list-decimal'>{children}</ol>
     ),
   },
   block: {
     h1: ({ children }: any) => (
-      <h1 className='text-5xl py-10 font-bold'>{children}</h1>
+      <h1 className='text-5xl font-ovo pt-10 pb-2 font-bold'>{children}</h1>
     ),
     h2: ({ children }: any) => (
-      <h2 className='text-4xl py-10 font-bold'>{children}</h2>
+      <h2 className='text-4xl font-ovo pt-10 pb-2 font-bold'>{children}</h2>
     ),
     h3: ({ children }: any) => (
-      <h3 className='text-3xl py-10 font-bold'>{children}</h3>
+      <h3 className='text-3xl font-ovo pt-10 pb-2 font-bold'>{children}</h3>
     ),
     h4: ({ children }: any) => (
-      <h4 className='text-2xl py-10 font-bold'>{children}</h4>
+      <h4 className='text-2xl font-ovo pt-10 pb-2 font-bold'>{children}</h4>
     ),
 
     blockquote: ({ children }: any) => (
-      <blockquote className=' border-l-amber-400 border-l-4 pl-5 py-5 my-5'>
+      <blockquote className='font-quattro border-l-gray-400 border-l-4 pl-5 py-5 my-5'>
         {children}
       </blockquote>
     ),
@@ -56,7 +56,7 @@ export const RichTextComponent = {
         <Link
           href={value.href}
           rel={rel}
-          className='underline decoration-amber-400 hover:decoration-black'
+          className='font-quattro underline decoration-amber-400 hover:decoration-black'
         >
           {children}
         </Link>
