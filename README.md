@@ -1,27 +1,35 @@
-# Next.js + Tailwind CSS Example
+# Photography Portfolio - Dylan Rotich
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.2)](https://tailwindcss.com/blog/tailwindcss-v3-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+## Description
 
-## Deploy your own
+I built this project to showcase my artwork as a photographer and further my skills as a Front End Web Developer.
+- I needed a portfolio website w/ blog to showcase my work as a photographer (long standing hobby)
+- I used NextJS, TailwindCSS, TypeScript, and Sanity CMS to challenge myself to practice known concepts while still learning new frameworks and libraries.
+- I learned how to create Sanity Schemas, implement Groq queries, integrate Stripe checkouts, debug Type errors, and use TailwindCSS to implement mobile first development.
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+## Usage
+Visit [Dylan Rotich | Photography Portfolio]() to view photo collections and read the Blog.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+## Features
+- Sliding Image Carousel
+- Sanity Backend
+- Blog
+- Mobile First Responsive Design
+- Stripe Payment Integration for Donations
 
-## How to use
+## Technology
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Vercel](https://img.shields.io/badge/NextJS-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![Sanity](https://img.shields.io/badge/Sanity-F54A2A?style=for-the-badge)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Stripe](https://img.shields.io/badge/Stripe-9347FF?style=for-the-badge)
+![Framer](https://img.shields.io/badge/Framer-black?style=for-the-badge&logo=framer&logoColor=blue)
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
 
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-```
+## License
+MIT License
 
-```bash
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
-
-```bash
-pnpm create next-app --example with-tailwindcss with-tailwindcss-app
-```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+Copyright (c) 2023 Dylan Rotich
+see LICENSE for more information
