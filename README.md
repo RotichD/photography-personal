@@ -6,9 +6,10 @@ I built this project to showcase my artwork as a photographer and further my ski
 - I needed a portfolio website w/ blog to showcase my work as a photographer (long standing hobby)
 - I used NextJS, TailwindCSS, TypeScript, and Sanity CMS to challenge myself to practice known concepts while still learning new frameworks and libraries.
 - I learned how to create Sanity Schemas, implement Groq queries, integrate Stripe checkouts, debug Type errors, and use TailwindCSS to implement mobile first development.
+- Demonstrates ability to create portfolio website for clients
 
 ## Usage
-Visit [Dylan Rotich | Photography Portfolio]() to view photo collections and read the Blog.
+Visit [Dylan Rotich | Photography Portfolio](https://dylanrotich-photography.vercel.app) to view photo collections and read the Blog.
 
 ## Features
 - Sliding Image Carousel

@@ -17,6 +17,7 @@ export default async function handler(
             price_data: {
               currency: 'usd',
               unit_amount: 1000,
+              tax_behavior: 'exclusive',
               product_data: {
                 name: 'Donation',
                 description:
