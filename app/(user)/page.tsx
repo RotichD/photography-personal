@@ -3,7 +3,7 @@ import Carousel from '../components/Carousel';
 
 export function Hero() {
   return (
-    <div className='mt-5 flex flex-col sm:flex-row sm:justify-between sm:items-start'>
+    <div className='mt-5 flex flex-col sm:flex-row sm:justify-between sm:items-start md:pb-8 lg:pb-16'>
       <div className=''>
         <h1 className='font-ovo text-5xl md:text-7xl'>Photographer.</h1>
         <div className='flex items-center space-x-4'>
@@ -43,7 +43,7 @@ export function Hero() {
         </div>
       </div>
 
-      <div className='text-gray-600 mt-2 sm:mt-0 md:text-lg'>
+      <div className='text-gray-600 mt-2 sm:mt-0 md:text-lg md:pt-2'>
         <p className='sm:text-right'>San Francisco Bay Area</p>
         <p className='sm:text-right'>Street | GRist</p>
       </div>

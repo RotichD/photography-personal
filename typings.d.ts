@@ -23,6 +23,18 @@ interface Author extends Base {
   slug: Slug;
 }
 
+interface ImageObject {
+  alt: string;
+  image: Image;
+  isLandscape: boolean;
+}
+
+interface ImageCollection extends Base {
+  title: string;
+  description: string;
+  images: ImageObject[];
+}
+
 interface Image {
   _type: 'image';
   asset: Reference;
@@ -64,14 +76,14 @@ interface MainImage {
 }
 
 type galleryImage = {
-  staticImage: StaticImageData;
+  src: string;
   landscape: boolean;
 };
 
 type galleryArr = galleryImage[];
 
 interface Gallery {
-  images: galleryArr
-  title?: string;
-  subtitle?: string;
+  images: galleryArr;
+  title: string;
+  description: string;
 }

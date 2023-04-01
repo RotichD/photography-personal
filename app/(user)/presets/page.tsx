@@ -10,6 +10,7 @@ function Shop() {
   return (
     <div className='w-full px-4 lg:px-8'>
       <h1 className='font-ovo text-5xl mb-8 mt-5'>Presets</h1>
+      <div className='border-b rounded w-2/6 mx-auto my-8'></div>
       <div className='space-y-4 mb-5 flex flex-col items-center p-8 border text-justify  shadow xl:text-lg text-gray-800'>
         <p className='max-w-lg '>
           I created these presets for the Ricoh GR community. They are
@@ -24,16 +25,9 @@ function Shop() {
       </div>
       <div className='grid xl:grid-cols-2 xl:space-x-2'>
         <PresetCard
-          downloadLocation='test-pack.zip'
+          downloadLocation='35mm_Sniper_Vol.1.zip'
           staticImage={vol1}
           title='35mm_Sniper Vol.1'
-          subtitle='Lightroom Preset Pack'
-          description='For Ricoh GRIII & GRIIIX. Not fully compatible with other cameras. Certain presets depend on the camera match profile only found in the GR3 line.'
-        />
-        <PresetCard
-          downloadLocation='test 2'
-          staticImage={vol1}
-          title='35mm_Sniper Vol.2'
           subtitle='Lightroom Preset Pack'
           description='For Ricoh GRIII & GRIIIX. Not fully compatible with other cameras. Certain presets depend on the camera match profile only found in the GR3 line.'
         />
