@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { useRef, useEffect, useState } from 'react';
 import images from '../../lib/images';
 import Image, { StaticImageData } from 'next/image';
+import Link from 'next/link';
 
 function Carousel() {
   const [width, setWidth] = useState<number>(0);
@@ -46,7 +47,9 @@ function Carousel() {
 
   return (
     <div className='mt-8'>
-        <p className='font-ovo text-2xl text-gray-600'>Recent Work</p>
+      <Link href={'/works'}>
+        <p className='font-ovo text-2xl text-gray-600 hover:text-black hover:drop-shadow transition duration-200'>Recent Work</p>
+      </Link>
       <motion.div
         ref={carousel}
         className=' cursor-grab overflow-hidden'
@@ -71,6 +74,7 @@ function Carousel() {
                   className='max-w-xs lg:max-w-sm 2xl:max-w-md'
                   src={image}
                   alt='photography example'
+                  height={400}
                 />
               </motion.div>
             );

@@ -67,7 +67,7 @@ function PresetCard({
             Show free download instead
           </button>
 
-          {/* Download Button: Presets are free therefore they do not need to be hidden */}
+          {/* Download Button: Presets are free therefore they do not need to be hidden. When I decide to sell I will implement other methods */}
           <a
             type='button'
             href={`/preset-packs/${downloadLocation}`}
