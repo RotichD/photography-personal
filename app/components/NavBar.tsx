@@ -42,13 +42,13 @@ function NavBar() {
               xmlns='http://www.w3.org/2000/svg'
               fill='none'
               viewBox='0 0 24 24'
-              stroke-width='1.5'
+              strokeWidth='1.5'
               stroke='currentColor'
               className='w-8 h-8'
             >
               <path
-                stroke-linecap='round'
-                stroke-linejoin='round'
+                strokeLinecap='round'
+                strokeLinejoin='round'
                 d='M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5'
               />
             </svg>
@@ -57,13 +57,13 @@ function NavBar() {
               xmlns='http://www.w3.org/2000/svg'
               fill='none'
               viewBox='0 0 24 24'
-              stroke-width='1.5'
+              strokeWidth='1.5'
               stroke='currentColor'
               className='w-8 h-8'
             >
               <path
-                stroke-linecap='round'
-                stroke-linejoin='round'
+                strokeLinecap='round'
+                strokeLinejoin='round'
                 d='M6 18L18 6M6 6l12 12'
               />
             </svg>
@@ -71,14 +71,20 @@ function NavBar() {
         </button>
       </div>
 
-            {/* Mobile Menu ↓ */}
+      {/* Mobile Menu ↓ */}
       {isOpen && (
         <div className='absolute z-10 bg-white flex flex-col items-center space-y-4 py-4 border-y mb-5 w-full md:hidden'>
-          <button onClick={toggleMenu} className=' focus:text-gray-500 transition duration-300'>
+          <button
+            onClick={toggleMenu}
+            className=' focus:text-gray-500 transition duration-300'
+          >
             <Link href={'/works'}>Works</Link>
           </button>
 
-          <button onClick={toggleMenu} className='focus:text-gray-500 transition duration-300'>
+          <button
+            onClick={toggleMenu}
+            className='focus:text-gray-500 transition duration-300'
+          >
             <Link href={'/blog'}>Blog</Link>
           </button>
 
