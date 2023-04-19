@@ -40,7 +40,7 @@ export default async function BlogPage() {
 
       <div className='border-b rounded w-2/6 mx-auto my-8'></div>
 
-      <h2 className='text-3xl md:text-4xl font-ovo mb-2'>Recet Posts:</h2>
+      <h2 className='text-3xl md:text-4xl font-ovo mb-2'>Recent Posts:</h2>
 
       <BlogList posts={posts} />
     </div>
